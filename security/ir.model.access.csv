@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sd_powerbi_records_admins,sd_hse.daily_records,model_sd_powerbi_records,sd_powerbi.group_admins,1,1,1,1

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+        <template id="powerbi_table" >
+            <table>
+                <thead>
+                    <tr>
+                        <t t-foreach="thead" t-as="head" t-key="head">
+                            <th t-esc="head"></th>
+                        </t>
+                    </tr>
+                </thead>
+                <tbody>
+                    <t t-foreach="tbody" t-as="trow" t-key="trow">
+                        <tr>
+                            <t t-foreach="trow" t-as="row" t-key="row">
+                                <td t-esc="row"></td>
+                            </t>
+                        </tr>
+                    </t>
+                </tbody>
+            </table>
+        </template>
+
+</odoo>
